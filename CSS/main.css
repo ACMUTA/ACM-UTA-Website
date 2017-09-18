@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container{
+	background-color: #fc7e1a;
+	width: 960px;
+	height: 1000px;
+		position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	z-index: 1;
+
+}
+.line{
+	width: 900px;
+	height: 20px;
+margin-top: 20px;
+	margin-bottom: 20px;
+	float: none;
+background-color:#45b1d8 ;
+
+}
+.Bblue{
+	background-color:#2bbbd8 ;
+		z-index: 2;
+
+}
+.Borange{
+	background-color: #f78d3f;
+		z-index: 2;
+}
+
+body{
+	margin: 0px;
+	background-image: url(../Images/back.jpg);
+	background-position:center;
+	background-attachment: fixed;
+}
+.main{
+	position:relative;
+	margin: 0px;
+	width: 100%;
+	z-index: 3;
+	height: auto;
+}
+#About{
+	width: 860px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 50px;
+		color:#f78d3f;
+}
