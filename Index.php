@@ -3,7 +3,9 @@
 <head>
 
 <meta charset="utf-8">
-<title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>ACM@UTA</title>
 <link href="CSS/main.css" rel="stylesheet" type="text/css">
 <link href="CSS/Slider.css" rel="stylesheet" type="text/css">
 <link href="CSS/Nav.css" rel="stylesheet" type="text/css">
@@ -65,25 +67,26 @@ include_once("nav.php");
 <div class="main" style="  height:3000px;padding-top: 100px;">
 	<div class="main" style=""> 
 		<div id="News">
-			<div Id="MainNews">	
+			<div class="MainNews">	
 				<h1 class="title">Welcome to our new website!</h1>
 				<p class="pp">This is the new website for the ACM chapter at UTA.
 				</p>
 			</div>
-			
-			<a class="OtherNews" >
-				<h2>About Us</h2>
-				<p>Learn more about us here.</p>
-			</a>
-			
-			<div class="OtherNews" >
-				<h2>Why ACM?</h2>
-				<p>Click here for an answer.</p>
-			</div>
-			<div class="OtherNews">
-				<h2>Calender</h2>
-					<p>Take a look at the future.</p>
-			</div>
+			<div class="Other">
+                <div class="OtherNews" >
+                    <h2>About Us</h2>
+                    <p>Learn more about us here.</p>
+                </div>
+                
+                <div class="OtherNews" >
+                    <h2>Why ACM?</h2>
+                    <p>Click here for an answer.</p>
+                </div>
+                <div class="OtherNews">
+                    <h2>Calender</h2>
+                        <p>Take a look at the future.</p>
+                </div>
+            </div>
 		</div>	
 </div>
   <div class="main"top:0; style="background-color:#e8ede0 ; height: 2000px; margin-top: 100px;">

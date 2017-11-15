@@ -1,24 +1,38 @@
 #News{
 	margin-left: auto;
 	margin-right: auto;
-	width: 960px;
+	width: 75%;
 	height:450px;
+    overflow:hidden;
 }
-#MainNews{
+.MainNews{
 	padding: 50px;
-	width:610px;
-	height: 350px;
-	float: left;
-	background-color:#e8ede0;
+width: 70%;
+box-sizing: border-box;
+position: relative;
+float: left;
+height: 100%;
+background-color: #e8ede0;
+}
+.Other{
+    width: 30%;
+align-content: left;
+position: relative;
+height: 100%;
+float: right;
+    background-color: #102e37;
 }
 .OtherNews{
 	float: right;
-	padding: 15px;
-	width: 220px;
-	height: 120px;
-	background-color:#102e37;
+padding: 15px;
+padding-top: 5px;
+padding-bottom: 5px;
+box-sizing: border-box ;
+width: 100%;
+height: auto;
+background-color: #102e37;
 border: medium #ffffff;
-			color: #f78d3f;
+color: #f78d3f;
 }
 .OtherNews:hover{
 		background-color:#f78d3f;
